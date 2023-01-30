@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="game">
+          <h1 class="game__header">guessing game</h1>
+          <form action="">
+            <label for="number">
+              Enter Your Number Here Between 1 to 10 :
+              <input
+                type="number"
+                name=""
+                id=""
+                required
+                autofocus
+                min="1"
+                max="10"
+              />
+            </label>
+            <input type="submit" value="Check Number" />
+          </form>
+          <!-- Attempts Text -->
+          <p class="attempts"></p>
+          <!-- Result Text -->
+          <p class="win"></p>
+          <p class="lost"></p>
+          <h3 class="direct__result"></h3>
+        </div>
+      </div>
+      <div class="copy__right">
+        <small
+          >Copyright ©2023 All rights reserved | This game is made by 💓
+          <a target="_blank" href="https://facebook.com/sdmmobin"
+            >Mobin Himu</a
+          ></small
+        >
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

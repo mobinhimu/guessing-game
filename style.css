@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  background-color: #7da1c4;
+}
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  text-align: center;
+  background: #000000;
+  border-radius: 5px;
+  padding: 30px 15px;
+  height: 300px;
+  color: #ffffff;
+  width: 100%;
+}
+.game__header {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input[type="number"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 8px;
+  width: 200px;
+}
+form input[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 15px 0;
+  cursor: pointer;
+  background-color: #1d4289;
+  color: #ffffff;
+}
+form input[type="submit"]:hover {
+  background-color: #1d4389d7;
+}
+.direct__result {
+  font-weight: 500;
+  padding: 20px;
+  color: #41b6e6;
+}
+.copy__right {
+  text-align: center;
+  margin-top: -80px;
+}
+.copy__right small {
+  color: #ffffff;
+}
+.copy__right small a {
+  text-decoration: none;
+  color: #007a78;
+  font-size: 1.123rem;
+  font-weight: 600;
+}
+.copy__right small a:hover {
+  color: #007a78c7;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
